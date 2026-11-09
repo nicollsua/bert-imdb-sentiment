@@ -2,7 +2,7 @@
 
 CSCI 390: Natural Language Processing and Applications (Dr. Qi Li)
 
-**Team:** Somtochukwu Chukwudi-Edoka, [PARTNER NAME]
+**Team:** Somtochukwu Chukwudi-Edoka, Nicoll Suarez
 
 ## Overview
 
@@ -42,8 +42,8 @@ Evaluated on a 5,000-review subset of the test split.
 
 | Metric | Score |
 |---|---|
-| Accuracy | [FILL IN] |
-| F1 | [FILL IN] |
+| Accuracy | 0.921 |
+| F1 | 0.922 |
 
 The training and validation loss curves are in `loss_curve.png`.
 
