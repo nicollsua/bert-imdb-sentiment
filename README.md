@@ -51,6 +51,17 @@ The training and validation loss curves are in `loss_curve.png`.
 
 The last part of the script launches a Gradio web app. Paste a movie review into the text box and the model returns the predicted sentiment with confidence scores for both classes. Running the script prints a public link you can open in any browser.
 
+## Trained Model
+
+The fine-tuned model (about 440 MB) is too large for GitHub. Download it here:
+https://colab.research.google.com/drive/1o5JaKqkbFGUGtJ4hM6sClyx_ANDldJvB?usp=sharing 
+
+## Running the Demo
+
+1. Download the model folder from the link above.
+2. Set `MODEL_PATH` in `app.py` to the folder's location.
+3. Run `python app.py` and open the link it prints.
+
 ## Files
 
 - `bert_imdb.py`: data loading, training, evaluation, loss plot, and demo
